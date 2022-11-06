@@ -23,7 +23,8 @@ public class Controller {
     @FXML
     public Button button;
 
-    private int counter = 0;
+    public final String login = "constance_prevot";
+    public final String code = "Fall_2023!";
 
     // Dummy controller for the FXML file
     public Controller() {
@@ -36,11 +37,11 @@ public class Controller {
         changeVisibility();
 
         button.setOnAction(buttonEvent -> {
-            if (counter == 0) {
-                counter ++;
-                System.out.println("no");
-            } else {
+            if (username.getText().equals(login) && password.getText().equals(code)) {
                 System.out.println("yes");
+            } else {
+                System.out.println("no");
+                password.setText("");
             }
         });
     }
