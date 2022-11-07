@@ -1,9 +1,8 @@
 #pane {
-    -fx-background-image : url("../ui/Background2.png");
-}
-
-#butt {
-
+    /*-fx-background-image : url("../ui/Background2.png");*/
+    -fx-background-image : url("../ui/gradient.GIF");
+    -fx-opacity: 0.7;
+    -fx-background-size: cover;
 }
 
 #label {
@@ -18,28 +17,41 @@
     -fx-font-size: 10px;
 }
 
-.text-field {
-    -fx-text-inner-color: #F7F0F0;
-    -fx-background-color: #F7F0F0, #353952 ;
-    -fx-background-insets: 0, 0 0 1 0 ;
-    -fx-background-radius: 0 ;
+#button {
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(53,57,82,0.7);
 }
-.text-field:focused {
-    -fx-background-color: #18A999, #353952 ;
+
+#button:hover {
+    -fx-background-color: rgba(53,57,82,1);
+}
+
+#button:pressed {
+    -fx-background-color: rgba(53,57,82,0.3);
+}
+
+.text-field, .password-field {
+    -fx-text-inner-color: rgba(247,240,240,1);
+    -fx-background-color: rgba(53,57,82,0.3);
+    -fx-border-color: rgba(53,57,82,0.3);
+    -fx-border-width: 0 0 1 0;
+}
+.text-field:focused, .password-field:focused {
+    -fx-border-color: rgba(247,240,240,1);
+    -fx-border-width: 0 0 1 0;
+    -fx-text-inner-color: rgba(247,240,240,1);
+    -fx-background-color: rgba(53,57,82,0.3) ;
 }
 
 .check-box .box {
-    -fx-background-color: #F7F0F0;
-    -fx-border-color: #353952;
-    -fx-border-radius: 0;
+    -fx-background-color: rgba(53,57,82,0.3);
 }
-/*.check-box .mark {*/
-/*    -fx-shape: "M1.73,12.91 8.1,19.28 22.79,4.59 22.79,1.59 8.1,16.28 1.73,9.91";*/
-/*}*/
 
 .check-box:selected .mark {
-    -fx-background-color: #353952;
+    -fx-shape: "M1.73,12.91 8.1,19.28 22.79,4.59 22.79,1.59 8.1,16.28 1.73,9.91";
+    -fx-background-color: rgba(247,240,240,1);
 }
-.check-box:selected .box {
-    -fx-background-color: #353952;
+
+.check-box {
+    -fx-text-fill: rgba(247,240,240,1);
 }

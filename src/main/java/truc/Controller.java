@@ -37,6 +37,7 @@ public class Controller {
     // it will set the right password fields and set the button action
     @FXML
     public void initialize() {
+        this.textfield.setVisible(false);
         changeVisibility();
 
         button.setOnAction(buttonEvent -> {
