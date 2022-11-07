@@ -1,7 +1,6 @@
 package truc;
 
 import javafx.animation.FadeTransition;
-import javafx.animation.Transition;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -10,8 +9,6 @@ import javafx.util.Duration;
 
 
 public class Controller {
-
-    public Scene scene;
 
     // All the fxml elements
     @FXML
