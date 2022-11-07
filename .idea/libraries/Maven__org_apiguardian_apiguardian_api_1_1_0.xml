@@ -8,6 +8,13 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar!/" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.base" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.controls" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.fxml" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.graphics" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.media" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.swing" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-18.0.2/src/javafx.web" />
     </SOURCES>
   </library>
 </component>

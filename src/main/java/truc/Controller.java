@@ -1,11 +1,14 @@
 package truc;
 
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 
 
 public class Controller {
+
+    public Scene scene;
 
     // All the fxml elements
     @FXML
@@ -37,11 +40,10 @@ public class Controller {
         changeVisibility();
 
         button.setOnAction(buttonEvent -> {
-            if (username.getText().equals(login) && password.getText().equals(code)) {
+            if (username.getText().equals(login) && (password.getText().equals(code) || textfield.getText().equals(code))) {
                 System.out.println("yes");
             } else {
                 System.out.println("no");
-                password.setText("");
             }
         });
     }

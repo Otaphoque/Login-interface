@@ -8,20 +8,23 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane id="pane" fx:id="pane" accessibleRole="NODE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
-      minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@ui.css"
-      xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="truc.Controller">
-   <Label id="label" fx:id="label" accessibleRole="NODE" layoutX="118.0" layoutY="42.0" prefHeight="33.0"
-          prefWidth="265.0" text="Fall 2023 Internship" textAlignment="CENTER" textOverrun="CLIP">
+<Pane id="pane" fx:id="pane" accessibleRole="NODE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@ui.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="truc.Controller">
+   <Label id="label" fx:id="label" accessibleRole="NODE" layoutX="45.0" layoutY="40.0" prefHeight="38.0" prefWidth="412.0" text="Software Engineering Internship" textAlignment="CENTER" textOverrun="CLIP">
       <font>
-         <Font name="Futura Medium" size="29.0"/>
+         <Font name="Monaco" size="22.0" />
       </font>
    </Label>
-   <TextField id="username" fx:id="username" accessibleRole="NODE" layoutX="170.0" layoutY="103.0"/>
-   <TextField id="passwordText" fx:id="textfield" accessibleRole="NODE" layoutX="171.0" layoutY="148.0"/>
-   <PasswordField id="password" fx:id="password" accessibleRole="NODE" layoutX="170.0" layoutY="148.0"/>
-   <CheckBox id="check" fx:id="checkbox" accessibleRole="NODE" layoutX="195.0" layoutY="189.0" mnemonicParsing="false"
-             onAction="#handleCheckbox" text="Show Password"/>
-   <Button id="button" fx:id="button" accessibleRole="NODE" layoutX="223.0" layoutY="221.0" mnemonicParsing="false"
-           text="Sign in"/>
+   <TextField id="username" fx:id="username" accessibleRole="NODE" layoutX="170.0" layoutY="103.0" maxHeight="26.0" maxWidth="160.0" minHeight="26.0" minWidth="160.0" prefHeight="26.0" prefWidth="160.0" />
+   <TextField id="passwordText" fx:id="textfield" accessibleRole="NODE" layoutX="170.0" layoutY="148.0" maxHeight="26.0" maxWidth="160.0" minHeight="26.0" minWidth="160.0" prefHeight="26.0" prefWidth="160.0" />
+   <PasswordField id="password" fx:id="password" accessibleRole="NODE" layoutX="170.0" layoutY="148.0" maxHeight="26.0" maxWidth="160.0" minHeight="26.0" minWidth="160.0" prefHeight="26.0" prefWidth="160.0" />
+   <CheckBox id="check" fx:id="checkbox" accessibleRole="NODE" layoutX="189.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleCheckbox" text="Show Password" textFill="#f7f0f0">
+      <font>
+         <Font name="Monaco" size="13.0" />
+      </font>
+   </CheckBox>
+   <Button id="button" fx:id="button" accessibleRole="NODE" layoutX="214.0" layoutY="221.0" mnemonicParsing="false" text="Sign in">
+      <font>
+         <Font name="Monaco" size="13.0" />
+      </font>
+   </Button>
 </Pane>

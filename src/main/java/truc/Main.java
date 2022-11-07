@@ -24,6 +24,7 @@ public class Main extends Application {
         Scene scene = new Scene(content, 500, 300);
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void main(String[] args) {

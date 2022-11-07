@@ -1,3 +1,45 @@
-#pane{
-    -fx-background-color: #abcedf;
+#pane {
+    -fx-background-image : url("../ui/Background2.png");
+}
+
+#butt {
+
+}
+
+#label {
+    -fx-text-fill: #F7F0F0;
+}
+
+#username, #passwordText {
+    -fx-font-family: "Monaco"
+}
+
+#password {
+    -fx-font-size: 10px;
+}
+
+.text-field {
+    -fx-text-inner-color: #F7F0F0;
+    -fx-background-color: #F7F0F0, #353952 ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: #18A999, #353952 ;
+}
+
+.check-box .box {
+    -fx-background-color: #F7F0F0;
+    -fx-border-color: #353952;
+    -fx-border-radius: 0;
+}
+/*.check-box .mark {*/
+/*    -fx-shape: "M1.73,12.91 8.1,19.28 22.79,4.59 22.79,1.59 8.1,16.28 1.73,9.91";*/
+/*}*/
+
+.check-box:selected .mark {
+    -fx-background-color: #353952;
+}
+.check-box:selected .box {
+    -fx-background-color: #353952;
 }
