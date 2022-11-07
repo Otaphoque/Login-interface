@@ -5,8 +5,14 @@
     -fx-background-size: cover;
 }
 
-#label {
+#mainLabel {
     -fx-text-fill: #F7F0F0;
+}
+
+#label {
+    -fx-text-fill: rgba(53,57,82,1);
+    -fx-alignment: center;
+    -fx-background-color: rgba(247,240,240,1);
 }
 
 #username, #passwordText {
@@ -23,11 +29,11 @@
 }
 
 #button:hover {
-    -fx-background-color: rgba(53,57,82,1);
+    -fx-background-color: rgba(53,57,82,0.3);
 }
 
 #button:pressed {
-    -fx-background-color: rgba(53,57,82,0.3);
+    -fx-background-color: rgba(53,57,82,1);
 }
 
 .text-field, .password-field {
@@ -44,14 +50,17 @@
 }
 
 .check-box .box {
-    -fx-background-color: rgba(53,57,82,0.3);
+    -fx-background-color: transparent;
+    -fx-background-image: url("../ui/unchecked.png");
+    -fx-background-size: 18px 20px;
 }
 
 .check-box:selected .mark {
-    -fx-shape: "M1.73,12.91 8.1,19.28 22.79,4.59 22.79,1.59 8.1,16.28 1.73,9.91";
-    -fx-background-color: rgba(247,240,240,1);
+    -fx-background-color: transparent;
 }
 
-.check-box {
-    -fx-text-fill: rgba(247,240,240,1);
+.check-box:selected .box {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../ui/checked.png");
+    -fx-background-size: 18px 20px;
 }
