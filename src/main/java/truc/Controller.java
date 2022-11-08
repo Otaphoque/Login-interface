@@ -2,11 +2,9 @@ package truc;
 
 import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
-
 
 public class Controller {
 
@@ -28,10 +26,10 @@ public class Controller {
     @FXML
     public Label label;
 
-    public final String login = "constance_prevot";
+    public final String login = "constance";
     public final String code = "Fall_2023!";
 
-    // Dummy controller for the FXML file
+    // Dummy constructor for the FXML file
     public Controller() {
     }
 
@@ -60,6 +58,7 @@ public class Controller {
         changeVisibility();
     }
 
+    // Handles the label that appears when the password is wrong
     private void handleAnimation() {
         this.label.setOpacity(1);
         FadeTransition transition = new FadeTransition();

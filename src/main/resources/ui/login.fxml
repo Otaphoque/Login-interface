@@ -27,7 +27,7 @@
          <Font name="Monaco" size="13.0" />
       </font>
    </Button>
-   <Label id="label" fx:id="label" layoutX="170.0" layoutY="262.0" maxHeight="27.0" maxWidth="160.0" minHeight="18.0" minWidth="141.0" prefHeight="27.0" prefWidth="160.0" text="Incorrect password" textAlignment="CENTER">
+   <Label id="label" fx:id="label" layoutX="170.0" layoutY="257.0" maxHeight="27.0" maxWidth="160.0" minHeight="18.0" minWidth="141.0" prefHeight="27.0" prefWidth="160.0" text="Incorrect password" textAlignment="CENTER">
       <font>
          <Font name="Monaco" size="13.0" />
       </font>

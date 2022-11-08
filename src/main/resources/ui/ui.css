@@ -1,5 +1,4 @@
 #pane {
-    /*-fx-background-image : url("../ui/Background2.png");*/
     -fx-background-image : url("../ui/gradient.GIF");
     -fx-opacity: 0.7;
     -fx-background-size: cover;
